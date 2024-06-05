@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+    <link rel="icon" href="resource/icon/5.jpg" type="image/x-icon">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+<div class="header-container">
+	<h1>˚ ༘♡ ⋆｡˚ My Personal Website ˚ ༘♡ ⋆｡˚</h1>
+<nav class="navbar">
+	<a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="family.html">Family</a>
+        <a href="friends.html">Friends</a>
+        <a href="interest.html">Interest</a>
+        <a href="favouriteidol.html">Idol</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+</header>
+
+<div>
+    <img src="resource/image/bg.jpg" class="feature-img" alt="Feature Image">
+</div>
+
+<br><br><br><br><br>
+
+<!-- Main content -->
+<div class="video-container">
+	<video loop width="100%" autoplay muted>
+	<source src="resource/video/hpg.mp4" type="video/mp4">
+</video>
+
+<br><br><br><br>
+
+<section id="section">
+        <h2>Hey there, awesome peeps! I'm super excited you're here!</h2>
+        <h3>Who Am I?</h3>
+        	<p>I'm just a regular girl from Kuala Lumpur who loves a good adventure and making new friends.</p>
+        <h3>What Gets Me Going?</h3>
+        	<p>Books, sports, and anything techy, I'm all about that fun stuff!</p>
+        <h3>My Crazy Journey</h3>
+       		<p>From primary school to college, it's been a wild ride! But hey, lots of laughs and lessons learned along the way.</p>
+        <h3>What's Here?</h3>
+        	<p>Expect a bit of everything, fun stories, random thoughts, and surprises!</p>
+        
+<center><p1>p/s: if you saw a 'Here' button, click it!</p1></center>
+        
+	<button id="exploreBtn">Explore More</button> 
+</section>
+
+
+<div class="popup-overlay" id="popupOverlay">
+    <!-- Popup Content -->
+    <div class="popup-content">
+        <h2>Get Ready for Some Memes!</h2>
+        	<img src="resource/image/meme1.jpg" alt="Meme 1">
+        <button id="continueBtn">Continue Exploring</button>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var exploreBtn = document.getElementById('exploreBtn');
+    var popupOverlay = document.getElementById('popupOverlay');
+
+    exploreBtn.addEventListener('click', function() {
+        popupOverlay.style.display = 'flex';
+    });
+
+    var continueBtn = document.getElementById('continueBtn');
+
+    continueBtn.addEventListener('click', function() {
+ 
+        popupOverlay.style.display = 'none';
+    });
+});
+</script>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 My Personal Website</p>
+</footer>
+
+</body>
+</html>

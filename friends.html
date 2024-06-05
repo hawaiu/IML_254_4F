@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="resource/css/style.css">
+    <link rel="icon" href="resource/icon/5.jpg" type="image/x-icon">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+<div class="header-container">
+	<h1>˚ ༘♡ ⋆｡˚ My Personal Website ˚ ༘♡ ⋆｡˚</h1>
+<nav class="navbar">
+	<a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="family.html">Family</a>
+        <a href="friends.html">Friends</a>
+        <a href="interest.html">Interest</a>
+        <a href="favouriteidol.html">Idol</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+</header>
+
+<div>
+    <img src="resource/image/bg.jpg" class="feature-img" alt="Feature Image">
+</div>
+
+<br><br><br><br><br>
+
+<!-- Main content -->
+<div class="fri-section">
+            <h2 class="section-title">My Friends</h2>
+            <p>Here, you'll find a collection of memories, stories, and adorable moments. Scroll down to explore more.</p>
+            <p>Below is my favourite video of trip to Penang with my uni friends! </p>
+
+<div class="video-container">
+    	<video width="100%" controls>
+        <source src="resource/video/vv.mp4" type="video/mp4">
+   </video>
+<section id="section">
+        <button id="exploreBtn">Here!</button> 
+   </section>
+</div>
+ 
+<div class="popup-overlay" id="popupOverlay">
+    <!-- Popup Content -->
+    <div class="popup-content">
+        <h2>Memes!</h2>
+        <img src="resource/image/meme4.jpg" alt="Meme 1">
+        <button id="continueBtn">Continue Exploring</button>
+    </div>
+</div>
+      
+</div>
+
+        </div>
+    </div>
+
+<div class="dumps">
+<div class="fri-section">
+        <h2>Uni Friends</h2>
+        <div class="dumps-container">
+            <!-- Insert your photo gallery images here -->
+            <img src="resource/image/f1.jpg" alt="Photo 1">
+            <img src="resource/image/f2.jpg" alt="Photo 2">
+            <img src="resource/image/f3.jpg" alt="Photo 3">
+            <img src="resource/image/f4.jpg" alt="Photo 3">
+	    <img src="resource/image/f5.jpg" alt="Photo 4">
+            <img src="resource/image/f6.jpg" alt="Photo 5">
+            <img src="resource/image/f7.jpg" alt="Photo 6">
+            <img src="resource/image/f8.jpg" alt="Photo 7">
+            <img src="resource/image/f9.jpg" alt="Photo 8">
+            <img src="resource/image/f10.jpg" alt="Photo 9">
+            <img src="resource/image/f14.jpg" alt="Photo 10">
+            <img src="resource/image/f15.jpg" alt="Photo 11">
+        </div>
+    </div>
+
+<div class="dumps">
+<div class="fri-section">
+        <h2>My Best Friend, AMIRAH!</h2>
+        <p>Despite being friends for almost 10 years, we  don't have many pictures together.</p>
+        <div class="dumps-container">
+            <!-- Insert your photo gallery images here -->
+            <img src="resource/image/w1.jpeg" alt="Photo 1">
+            <img src="resource/image/w2.jpeg" alt="Photo 2">
+            <img src="resource/image/w3.jpg" alt="Photo 3">
+            <img src="resource/image/w4.jpg" alt="Photo 3">
+	    <img src="resource/image/w5.jpg" alt="Photo 4">
+	    <img src="resource/image/w6.jpg" alt="Photo 5">
+            <img src="resource/image/w7.jpg" alt="Photo 6">
+            <img src="resource/image/w8.jpg" alt="Photo 7">
+            <img src="resource/image/w9.jpg" alt="Photo 8">
+            <img src="resource/image/w10.jpg" alt="Photo 9">
+            <img src="resource/image/w11.jpg" alt="Photo 11">
+            <img src="resource/image/w12.jpg" alt="Photo 12">
+        </div>
+    </div>
+ 
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var exploreBtn = document.getElementById('exploreBtn');
+    var popupOverlay = document.getElementById('popupOverlay');
+
+    exploreBtn.addEventListener('click', function() {
+        popupOverlay.style.display = 'flex';
+    });
+
+    var continueBtn = document.getElementById('continueBtn');
+
+    continueBtn.addEventListener('click', function() {
+ 
+        popupOverlay.style.display = 'none';
+    });
+});
+</script>
+
+<div class="disclaimer">
+    <p>Disclaimer: This website is for entertainment purposes only. All songs and music videos are the property of their respective owners. I do not own any rights to the songs featured on this site.</p>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 My Personal Website</p>
+</footer>
+
+</body>
+</html>
